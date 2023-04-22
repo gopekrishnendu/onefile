@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2744e9;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.right-link li {
+    float: right;
+}
+
+.right-link li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9px 9px;
+    text-decoration: none;
+}
+
+.right-link li a:hover {
+    background-color: rgb(231, 25, 114);
+}
